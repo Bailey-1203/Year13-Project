@@ -1,0 +1,2392 @@
+[
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "Sca": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "Zindex": 0,
+          "Rotation": 0.0,
+          "name": "",
+          "univID": 52,
+          "DisplayImGui": false
+        }
+      },
+      {
+        "type": "components.ImageSaveComp",
+        "properties": {
+          "size": {
+            "x": 32,
+            "y": 32
+          },
+          "count": 104,
+          "separation": 0,
+          "Imagename": "adventurer_sprite_sheet_v1.1.png",
+          "Rb": false,
+          "Bc": false,
+          "Cc": false,
+          "name": "",
+          "univID": 54,
+          "DisplayImGui": false
+        }
+      },
+      {
+        "type": "components.ImageSaveComp",
+        "properties": {
+          "size": {
+            "x": 32,
+            "y": 32
+          },
+          "count": 256,
+          "separation": 0,
+          "Imagename": "spr2.png",
+          "Rb": true,
+          "Bc": true,
+          "Cc": false,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": false
+        }
+      },
+      {
+        "type": "components.ImageSaveComp",
+        "properties": {
+          "size": {
+            "x": 32,
+            "y": 32
+          },
+          "count": 104,
+          "separation": 0,
+          "Imagename": "adventurer_sprite_sheet_v1.1.png",
+          "Rb": true,
+          "Bc": true,
+          "Cc": false,
+          "name": "",
+          "univID": 96,
+          "DisplayImGui": false
+        }
+      }
+    ],
+    "univID": 0,
+    "ObjectTag": "imageMetaSaver",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "Sca": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "Zindex": 0,
+          "Rotation": 0.0,
+          "name": "",
+          "univID": 53,
+          "DisplayImGui": false
+        }
+      }
+    ],
+    "univID": 1,
+    "ObjectTag": "SoundMetaSaver",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -249.25,
+            "y": 1.0
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 512.0,
+            "Height": 512.0,
+            "texture": {
+              "width": 512,
+              "height": 512,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\spr2.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.625,
+                "y": 1.0
+              },
+              {
+                "x": 0.625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Static",
+          "Friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.24,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 2,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -249.0,
+            "y": 1.0
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 512.0,
+            "Height": 512.0,
+            "texture": {
+              "width": 512,
+              "height": 512,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\spr2.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.625,
+                "y": 1.0
+              },
+              {
+                "x": 0.625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Static",
+          "Friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.24,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 3,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -248.75,
+            "y": 1.0
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 512.0,
+            "Height": 512.0,
+            "texture": {
+              "width": 512,
+              "height": 512,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\spr2.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.625,
+                "y": 1.0
+              },
+              {
+                "x": 0.625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Static",
+          "Friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.24,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 4,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -248.5,
+            "y": 1.0
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 512.0,
+            "Height": 512.0,
+            "texture": {
+              "width": 512,
+              "height": 512,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\spr2.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.625,
+                "y": 1.0
+              },
+              {
+                "x": 0.625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Static",
+          "Friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.24,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 5,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -248.25,
+            "y": 1.0
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 512.0,
+            "Height": 512.0,
+            "texture": {
+              "width": 512,
+              "height": 512,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\spr2.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.625,
+                "y": 1.0
+              },
+              {
+                "x": 0.625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Static",
+          "Friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.24,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 6,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -248.0,
+            "y": 1.0
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 512.0,
+            "Height": 512.0,
+            "texture": {
+              "width": 512,
+              "height": 512,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\spr2.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.625,
+                "y": 1.0
+              },
+              {
+                "x": 0.625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Static",
+          "Friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.24,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 7,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -248.25,
+            "y": 1.5
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 512.0,
+            "Height": 512.0,
+            "texture": {
+              "width": 512,
+              "height": 512,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\spr2.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.625,
+                "y": 1.0
+              },
+              {
+                "x": 0.625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Static",
+          "Friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.5,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 8,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -248.5,
+            "y": 0.0
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 512.0,
+            "Height": 512.0,
+            "texture": {
+              "width": 512,
+              "height": 512,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\spr2.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.625,
+                "y": 1.0
+              },
+              {
+                "x": 0.625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 0.9375
+              },
+              {
+                "x": 0.5625,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Dynamic",
+          "Friction": 0.1,
+          "angularVelocity": 1.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.24,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 9,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -247.5,
+            "y": 0.75
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 512.0,
+            "Height": 512.0,
+            "texture": {
+              "width": 512,
+              "height": 512,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\spr2.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.875,
+                "y": 0.5625
+              },
+              {
+                "x": 0.875,
+                "y": 0.5
+              },
+              {
+                "x": 0.8125,
+                "y": 0.5
+              },
+              {
+                "x": 0.8125,
+                "y": 0.5625
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Static",
+          "Friction": 0.1,
+          "angularVelocity": 1.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.24,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 10,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -249.25,
+            "y": 1.5
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 74,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 416.0,
+            "Height": 256.0,
+            "texture": {
+              "width": 416,
+              "height": 256,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.15384616,
+                "y": 1.0
+              },
+              {
+                "x": 0.15384616,
+                "y": 0.875
+              },
+              {
+                "x": 0.07692308,
+                "y": 0.875
+              },
+              {
+                "x": 0.07692308,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 75,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 1.0,
+          "bodyType": "Dynamic",
+          "Friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 0.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 76,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.PillBoxCollider",
+        "properties": {
+          "Width": 0.1,
+          "Height": 0.2,
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 77,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.PlayerController",
+        "properties": {
+          "TerminalVel": {
+            "x": 2.0,
+            "y": 3.0
+          },
+          "name": "",
+          "univID": 78,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteState",
+        "properties": {
+          "Loops": [
+            {
+              "tag": "Idle",
+              "Sprites": [
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.07692308,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.15384616,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.23076923,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.23076923,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.30769232,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.30769232,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.23076923,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.23076923,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.3846154,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.3846154,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.30769232,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.30769232,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.46153846,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.46153846,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.3846154,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.3846154,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.53846157,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.53846157,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.46153846,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.46153846,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.61538464,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.61538464,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.53846157,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.53846157,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.6923077,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.6923077,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.61538464,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.61538464,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.7692308,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.7692308,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.6923077,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.6923077,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                }
+              ],
+              "loops": true
+            },
+            {
+              "tag": "Jump",
+              "Sprites": [
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 1.0,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 1.0,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.9230769,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.9230769,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.07692308,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.875
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.15384616,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.875
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                }
+              ],
+              "loops": false
+            },
+            {
+              "tag": "Run",
+              "Sprites": [
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.07692308,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.75
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.15384616,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.75
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.23076923,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.23076923,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 0.75
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.30769232,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.30769232,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.23076923,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.23076923,
+                        "y": 0.75
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.3846154,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.3846154,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.30769232,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.30769232,
+                        "y": 0.75
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.46153846,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.46153846,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.3846154,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.3846154,
+                        "y": 0.75
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.53846157,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.53846157,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.46153846,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.46153846,
+                        "y": 0.75
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.61538464,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.61538464,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.53846157,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.53846157,
+                        "y": 0.75
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.6923077,
+                        "y": 0.75
+                      },
+                      {
+                        "x": 0.6923077,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.61538464,
+                        "y": 0.625
+                      },
+                      {
+                        "x": 0.61538464,
+                        "y": 0.75
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                }
+              ],
+              "loops": true
+            }
+          ],
+          "SpriteLoops": {},
+          "DefaultTag": "Idle",
+          "name": "",
+          "univID": 79,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.ThumbNailTextureStore",
+        "properties": {
+          "sprite": {
+            "Width": 32.0,
+            "Height": 32.0,
+            "texture": {
+              "width": 416,
+              "height": 256,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.07692308,
+                "y": 1.0
+              },
+              {
+                "x": 0.07692308,
+                "y": 0.875
+              },
+              {
+                "x": 0.0,
+                "y": 0.875
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 80,
+          "DisplayImGui": false
+        }
+      }
+    ],
+    "univID": 11,
+    "ObjectTag": "Player",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -248.75,
+            "y": 1.75
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 55,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 416.0,
+            "Height": 256.0,
+            "texture": {
+              "width": 416,
+              "height": 256,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.07692308,
+                "y": 1.0
+              },
+              {
+                "x": 0.07692308,
+                "y": 0.875
+              },
+              {
+                "x": 0.0,
+                "y": 0.875
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 56,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteState",
+        "properties": {
+          "Loops": [
+            {
+              "tag": "Idle",
+              "Sprites": [
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.07692308,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.07692308,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.15384616,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.07692308,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.23076923,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.23076923,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.15384616,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                },
+                {
+                  "sprite": {
+                    "Width": 416.0,
+                    "Height": 256.0,
+                    "texture": {
+                      "width": 416,
+                      "height": 256,
+                      "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+                    },
+                    "tex_ver": [
+                      {
+                        "x": 0.30769232,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.30769232,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.23076923,
+                        "y": 0.875
+                      },
+                      {
+                        "x": 0.23076923,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "timer": 0.23
+                }
+              ],
+              "loops": true
+            }
+          ],
+          "SpriteLoops": {},
+          "DefaultTag": "Idle",
+          "name": "",
+          "univID": 57,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.ThumbNailTextureStore",
+        "properties": {
+          "sprite": {
+            "Width": 32.0,
+            "Height": 32.0,
+            "texture": {
+              "width": 416,
+              "height": 256,
+              "FilePath": "C:\\Users\\baile.LAPTOP-PFN10KU2\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.07692308,
+                "y": 1.0
+              },
+              {
+                "x": 0.07692308,
+                "y": 0.875
+              },
+              {
+                "x": 0.0,
+                "y": 0.875
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 58,
+          "DisplayImGui": false
+        }
+      }
+    ],
+    "univID": 12,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  },
+  {
+    "components": [
+      {
+        "type": "iso.Transform",
+        "properties": {
+          "Pos": {
+            "x": -251.25,
+            "y": 5.0
+          },
+          "Sca": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "Zindex": 2,
+          "Rotation": 360.0,
+          "name": "",
+          "univID": 97,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "originColour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "Colour": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "rotation_pre": 360.0,
+          "sprite": {
+            "Width": 32.0,
+            "Height": 32.0,
+            "texture": {
+              "width": 416,
+              "height": 256,
+              "FilePath": "C:\\Users\\Bailey\\OneDrive\\Documents\\Test2\\assets\\adventurer_sprite_sheet_v1.1.png"
+            },
+            "tex_ver": [
+              {
+                "x": 0.07692308,
+                "y": 1.0
+              },
+              {
+                "x": 0.07692308,
+                "y": 0.875
+              },
+              {
+                "x": 0.0,
+                "y": 0.875
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ]
+          },
+          "name": "",
+          "univID": 98,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.RBody",
+        "properties": {
+          "vel": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamp": 0.8,
+          "linearDamp": 0.9,
+          "mass": 0.0,
+          "bodyType": "Dynamic",
+          "Friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "FixedRot": true,
+          "ContinousCol": true,
+          "name": "",
+          "univID": 99,
+          "DisplayImGui": true
+        }
+      },
+      {
+        "type": "PhysicsEngine.Components.BoxCollider",
+        "properties": {
+          "size": {
+            "x": 0.24,
+            "y": 0.24
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "off": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "name": "",
+          "univID": 100,
+          "DisplayImGui": true
+        }
+      }
+    ],
+    "univID": 20,
+    "ObjectTag": "gen_object",
+    "serialise": true,
+    "dead": false
+  }
+]
